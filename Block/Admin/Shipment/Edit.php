@@ -1,0 +1,17 @@
+<?php
+
+namespace Block\Admin\Shipment;
+
+class Edit extends \Block\Core\Edit
+{
+  
+  public function __construct()
+  {
+      parent::__construct();
+      $this->setTabClass(\Mage::getBlock('Block\Admin\shipment\Edit\Tabs'));      
+  }
+ 
+
+}
+
+?>
